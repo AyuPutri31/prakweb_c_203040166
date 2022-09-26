@@ -29,7 +29,7 @@ if (isset($_POST['cari'])) {
 <body>
 
   <div class="container">
-    <h2 class="center">Daftar Buku</h2>
+    <h2 class="center">Daftar Buku Novel</h2>
     <form action="" method="POST">
       <input type="text" name="keyword" size="30" placeholder="Masukkan Keywoard Pencarian.." autocomplete="off" autofocus>
       <button type="submit" name="cari" class="btn teal darken-1">Cari!</button>
