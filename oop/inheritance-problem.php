@@ -35,8 +35,6 @@ class Produk
       $str .= " - {$this->jmlHalaman} Halaman.";
     } else if ($this->tipe == "Game") {
       $str .= " ~ {$this->waktuMain} Jam.";
-    } else {
-      $str .= " - {$this->jmlHalaman} Halaman.";
     }
 
     return $str;
