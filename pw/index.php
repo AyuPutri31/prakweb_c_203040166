@@ -18,21 +18,22 @@ if (isset($_POST['cari'])) {
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daftar Buku</title>
+  <title>DAFTAR BUKU</title>
 </head>
 
 <body>
 
   <div class="container">
-    <h2 class="center">Daftar Buku Novel</h2>
+    <h2 class="center">DAFTAR BUKU NOVEL</h2>
     <form action="" method="POST">
       <input type="text" name="keyword" size="30" placeholder="Masukkan Keywoard Pencarian.." autocomplete="off" autofocus>
-      <button type="submit" name="cari" class="btn teal darken-1">Cari!</button>
+      <button type="submit" name="cari" class="btn  blue darken-3">Cari!</button>
     </form>
     <br>
     <table class="centered">
