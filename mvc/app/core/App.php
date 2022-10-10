@@ -4,8 +4,8 @@ class App
 {
   protected $url;
 
-  protected $controller = DEFAULT_CONTROLLER;
-  protected $method = DEFAULT_METHOD;
+  protected $controller = 'Home';
+  protected $method = 'index';
   protected $params = [];
 
 
